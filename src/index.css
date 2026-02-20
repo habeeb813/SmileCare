@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-sky-50 text-gray-900 antialiased;
+}
+
+#root {
+  @apply min-h-screen bg-white;
+}
+
+section {
+  @apply py-12 sm:py-16 lg:py-20;
+}
+
+.fade-up {
+  @apply animate-fade-up;
+}
+
